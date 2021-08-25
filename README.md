@@ -1,7 +1,7 @@
  
 # README Creator
 
-### Project Description: Creates READMEs
+### Project Description: Creates simple README files for projects
 ### Project URL: [https://ericduwe.github.io/readmeCreator](https://ericduwe.github.io/readmeCreator)
 ### License Badge: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
@@ -19,13 +19,14 @@ node.js
 
 ## Installation and Requirements
 ### Prerequisites
-undefined
+Have node.js installed
 
 ### Installation Instructions
-install it
+Clone repo and install npm packages
 
 ## Usage
-![none](./assets/testing.PNG)
+![README Creator Gif Demo](./assets/READMECreatorVid.gif)
+![test screenshot](./assets/testing.PNG)
 
 ## Contributions
 This project is not open to outside contributions at this time.
