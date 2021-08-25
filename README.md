@@ -1,9 +1,9 @@
  
-# readME Creator
+# README Creator
 
-### Project Description: Creates simple, fun and easy to read READMEs
+### Project Description: Creates READMEs
 ### Project URL: [https://ericduwe.github.io/readmeCreator](https://ericduwe.github.io/readmeCreator)
-
+### License Badge: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Installation and Requirements](#installation-and-requirements)
@@ -11,9 +11,8 @@
     2. [How to Install](#installation-instructions)
 3. [Usage](#usage)
 4. [Contributions](#contributions)
-5. [Test Instructions](#test-instructions)
-6. [License](#license)
-7. [Questions and Contact](#questions-and-contact)
+5. [License](#license)
+6. [Questions and Contact](#questions-and-contact)
 
 ## Technologies Used
 node.js
@@ -23,20 +22,17 @@ node.js
 undefined
 
 ### Installation Instructions
-Clone the repo and then install the inquirer npm package if needed
+install it
 
 ## Usage
-![Test Screenshot](./assets/testing.PNG)
+![none](./assets/testing.PNG)
 
 ## Contributions
 This project is not open to outside contributions at this time.
-
-
-## Test Instructions
 
 
 ## License
 Distributed under the MIT License. See top of page for more information.
 
 ## Questions and Contact
-If you have questions regarding this project, contact Eric DUwe at ericduwe@gmail.com, or find me on [github](https://www.github.com/ericduwe).
+If you have questions regarding this project, contact Eric Duwe at ericduwe@gmail.com, or find me on [github](https://www.github.com/ericduwe).

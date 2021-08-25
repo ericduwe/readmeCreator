@@ -30,6 +30,11 @@ const promptUser = () => {
         },
         {
         type: 'input',
+        name: 'prereq',
+        message: "What are the prerequisites for using this app?",
+        },
+        {
+        type: 'input',
         name: 'install',
         message: "List installation instructions",
         },
@@ -60,11 +65,6 @@ const promptUser = () => {
         },
         {
         type: 'input',
-        name: 'tests',
-        message: "List test instructions:",
-        },
-        {
-        type: 'input',
         name: 'yourName',
         message: "Your name:",
         },
@@ -92,7 +92,7 @@ const generateMd = (answers) =>
 
 ### Project Description: ${answers.description}
 ### Project URL: [https://${answers.username}.github.io/${answers.repo}](https://${answers.username}.github.io/${answers.repo})
-### License Badge: [![License: ${answers.license}](${answers.licenseBadge})]
+### License Badge: ${answers.licenseBadge}
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Installation and Requirements](#installation-and-requirements)
@@ -120,9 +120,6 @@ ${answers.install}
 This project is not open to outside contributions at this time.
 ${answers.contributing}
 
-## Test Instructions
-${answers.tests}
-
 ## License
 Distributed under the ${answers.license} License. See top of page for more information.
 
@@ -132,7 +129,7 @@ If you have questions regarding this project, contact ${answers.yourName} at ${a
 
 const init = () => {
     promptUser()
-        .then((answers) => writeFileAsync('readme.md', generateMd(answers)))
+        .then((answers) => writeFileAsync('README.md', generateMd(answers)))
         .then(() => console.log("Success!"))
 };
 
