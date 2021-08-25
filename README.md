@@ -1,14 +1,14 @@
  
-# README Creator
+# readME Creator
 
-### Project Description: Creates simple READMEs for projects
+### Project Description: Creates simple, fun and easy to read READMEs
 ### Project URL: [https://ericduwe.github.io/readmeCreator](https://ericduwe.github.io/readmeCreator)
 
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Installation and Requirements](#installation-and-requirements)
- - [Prerequisites](#prerequisites)
- - [How to Install](#installation-instructions)
+    1. [Prerequisites](#prerequisites)
+    2. [How to Install](#installation-instructions)
 3. [Usage](#usage)
 4. [Contributions](#contributions)
 5. [Test Instructions](#test-instructions)
@@ -16,17 +16,17 @@
 7. [Questions and Contact](#questions-and-contact)
 
 ## Technologies Used
-JavaScript, node.js
+node.js
 
 ## Installation and Requirements
 ### Prerequisites
 undefined
 
 ### Installation Instructions
-Install npm packages and clone repo
+Clone the repo and then install the inquirer npm package if needed
 
 ## Usage
-![test screenshot](./assets/testing.PNG)
+![Test Screenshot](./assets/testing.PNG)
 
 ## Contributions
 This project is not open to outside contributions at this time.
@@ -39,4 +39,4 @@ This project is not open to outside contributions at this time.
 Distributed under the MIT License. See top of page for more information.
 
 ## Questions and Contact
-If you have questions regarding this project, contact Eric Duwe at ericduwe@gmail.com, or find me on [github](https://www.github.com/ericduwe).
+If you have questions regarding this project, contact Eric DUwe at ericduwe@gmail.com, or find me on [github](https://www.github.com/ericduwe).

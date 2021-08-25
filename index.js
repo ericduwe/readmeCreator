@@ -50,6 +50,11 @@ const promptUser = () => {
         },
         {
         type: 'input',
+        name: 'licenseBadge',
+        message: "Paste license badge URL:",
+        },
+        {
+        type: 'input',
         name: 'contributing',
         message: "List contribution guidelines:",
         },
