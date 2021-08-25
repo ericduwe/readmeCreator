@@ -20,8 +20,8 @@ const promptUser = () => {
         },
         {
         type: 'input',
-        name: 'url',
-        message: "What's the app URL?",
+        name: 'repo',
+        message: "What's the github repo title?",
         },
         {
         type: 'input',
@@ -35,8 +35,13 @@ const promptUser = () => {
         },
         {
         type: 'input',
-        name: 'usage',
-        message: "Usage information:",
+        name: 'screenshot',
+        message: "What's the filename of your screenshot:",
+        },
+        {
+        type: 'input',
+        name: 'altText',
+        message: "Alt text for screenshot:",
         },
         {
         type: 'input',
@@ -70,7 +75,7 @@ const promptUser = () => {
         },
         {
         type: 'input',
-        name: 'github',
+        name: 'username',
         message: "Github username:",
         },
     ]);
@@ -81,12 +86,13 @@ const generateMd = (answers) =>
 # ${answers.title}
 
 ### Project Description: ${answers.description}
+### Project URL: [https://${answers.username}.github.io/${answers.repo}](https://${answers.username}.github.io/${answers.repo})
 
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Installation and Requirements](#installation-and-requirements)
- - [Prerequisites](#prerequisites)
- - [How to Install](#installation-instructions)
+    1. [Prerequisites](#prerequisites)
+    2. [How to Install](#installation-instructions)
 3. [Usage](#usage)
 4. [Contributions](#contributions)
 5. [Test Instructions](#test-instructions)
@@ -104,7 +110,7 @@ ${answers.prereq}
 ${answers.install}
 
 ## Usage
-${answers.usage}
+![${answers.altText}](./assets/${answers.screenshot})
 
 ## Contributions
 This project is not open to outside contributions at this time.
@@ -117,7 +123,7 @@ ${answers.tests}
 Distributed under the ${answers.license} License. See top of page for more information.
 
 ## Questions and Contact
-If you have questions regarding this project, contact ${answers.yourName} at ${answers.yourEmail}, or find me on [github](https://www.github.com/${answers.github}).
+If you have questions regarding this project, contact ${answers.yourName} at ${answers.yourEmail}, or find me on [github](https://www.github.com/${answers.username}).
 `;
 
 const init = () => {

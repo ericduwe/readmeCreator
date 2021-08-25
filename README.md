@@ -1,6 +1,8 @@
  
-# App
-### It is nice
+# README Creator
+
+### Project Description: Creates simple READMEs for projects
+### Project URL: [https://ericduwe.github.io/readmeCreator](https://ericduwe.github.io/readmeCreator)
 
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
@@ -14,27 +16,27 @@
 7. [Questions and Contact](#questions-and-contact)
 
 ## Technologies Used
-lots of them
+JavaScript, node.js
 
 ## Installation and Requirements
 ### Prerequisites
 undefined
 
 ### Installation Instructions
-install it
+Install npm packages and clone repo
 
 ## Usage
-be careful
+![test screenshot](./assets/testing.PNG)
 
 ## Contributions
 This project is not open to outside contributions at this time.
 
 
 ## Test Instructions
-test it
+
 
 ## License
 Distributed under the MIT License. See top of page for more information.
 
 ## Questions and Contact
-If you have questions regarding this project, contact Eric at ericduwe@gmail.com, or find me on [github](https://www.github.com/ericduwe).
+If you have questions regarding this project, contact Eric Duwe at ericduwe@gmail.com, or find me on [github](https://www.github.com/ericduwe).
