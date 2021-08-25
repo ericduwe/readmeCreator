@@ -92,7 +92,7 @@ const generateMd = (answers) =>
 
 ### Project Description: ${answers.description}
 ### Project URL: [https://${answers.username}.github.io/${answers.repo}](https://${answers.username}.github.io/${answers.repo})
-
+### License Badge: [![License: ${answers.license}](${answers.licenseBadge})]
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Installation and Requirements](#installation-and-requirements)
@@ -100,9 +100,8 @@ const generateMd = (answers) =>
     2. [How to Install](#installation-instructions)
 3. [Usage](#usage)
 4. [Contributions](#contributions)
-5. [Test Instructions](#test-instructions)
-6. [License](#license)
-7. [Questions and Contact](#questions-and-contact)
+5. [License](#license)
+6. [Questions and Contact](#questions-and-contact)
 
 ## Technologies Used
 ${answers.tech}
